@@ -1,0 +1,101 @@
+/* 1. Estilo da página inteira */
+body {
+  background-color: #0f172a;       /* Azul escuro moderno de fundo */
+  color: #FFFFFF;                  /* Cor do texto em branco */
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 20px;
+}
+
+/* 2. Estilo dos títulos */
+h1, h2, h3 {
+  color: #f7f6f1;                  /* Cor dos títulos */
+}
+
+/* 3. Caixa do cartão com cantos arredondados */
+.cartao {
+  background-color: #1e3a8a;       /* Azul vibrante do cartão */
+  border: 2px solid #60a5fa;       /* Borda azul clara */
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 16px;             /* Cantos arredondados no cartão */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* 4. Imagem central com alta resolução e tamanho maior */
+.area-imagem {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.foto-destaque {
+  width: 100%;                     /* Ocupa a largura disponível do cartão */
+  max-width: 450px;                /* Tamanho máximo ampliado */
+  height: auto;
+  border-radius: 12px;             /* Cantos arredondados na imagem */
+  border: 2px solid #93c5fd;
+  object-fit: cover;
+}
+
+/* Inputs de texto e campos com cantos arredondados */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;              /* Cantos arredondados no input */
+  border: 1px solid #93c5fd;
+  background-color: #eff6ff;
+  color: #000000;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+/* Fieldset com cantos arredondados */
+fieldset {
+  border: 2px solid #60a5fa;
+  border-radius: 12px;             /* Cantos arredondados no fieldset */
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #172554;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.opcao-item {
+  margin-bottom: 10px;
+}
+
+/* Botão com cantos arredondados */
+button[type="submit"] {
+  background-color: #2563eb;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;              /* Cantos arredondados no botão */
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #1d4ed8;
+}
+
+/* 5. Foco do teclado (NÃO APAGAR) */
+input:focus, button:focus {
+  outline: 4px solid #00FFFF;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+  color: #93c5fd;
+}

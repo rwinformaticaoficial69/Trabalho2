@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Oficina de CSS - Cartão Interativo</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <header>
+    <h1>@rw_informatica_oficial 🖨️</h1>
+  </header>
+
+  <main>
+    <div class="cartao">
+      <h2>Computador / Impressora</h2>
+
+      <!-- IMAGEM CENTRAL -->
+      <div class="area-imagem">
+        <img 
+          src="beto.png" 
+          alt="Arte abstrata tecnológica em tons de azul com a marca da RW Informática" 
+          class="foto-destaque"
+        >
+      </div>
+
+      <p>Xerox, impressão, escaneamento de documentos</p>
+
+      <!-- FORMULÁRIO INTERATIVO -->
+      <form>
+        <h3>Relacione o que precisa</h3>
+
+        <p>
+          <label for="nome-visitante">Nome:</label>
+          <input type="text" id="nome-visitante" placeholder="Digite seu nome">
+        </p>
+
+        <!-- Exemplo de CHECKBOX (Escolha Múltipla) -->
+        <fieldset>
+          <legend>Selecione o serviço desejado:</legend>
+
+          <div class="opcao-item">
+            <input type="checkbox" id="check1" name="interesses" value="item1">
+            <label for="check1">Impressão</label>
+          </div>
+
+          <div class="opcao-item">
+            <input type="checkbox" id="check2" name="interesses" value="item2">
+            <label for="check2">Xerox</label>
+          </div>
+
+          <div class="opcao-item">
+            <input type="checkbox" id="check3" name="interesses" value="item3">
+            <label for="check3">Adesivos Personalizados</label>
+          </div>
+        
+          <div class="opcao-item">
+            <input type="checkbox" id="check4" name="interesses" value="item4">
+            <label for="check4">Gravação de músicas Mp3, Mp4</label>
+          </div>
+        
+          <div class="opcao-item">
+            <input type="checkbox" id="check5" name="interesses" value="item5">
+            <label for="check5">Documentações</label>
+          </div>
+        </fieldset>
+
+        <button type="submit">Enviar Respostas</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>Atividade de fixação de CSS - 2026</p>
+  </footer>
+
+</body>
+</html>
